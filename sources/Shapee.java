@@ -1,4 +1,17 @@
+import java.util.Scanner;
+import java.util.function.*;
+
 public class Shapee {
+    public static class Functiontest {
+        public static void main(String[] args){
+            var ref = new Object() {
+                Function<Integer, Integer> factorial = n -> n;
+            };
+            ref.factorial = n -> (n == 0) ? 1 : (n * ref.factorial.apply(n - 1));
+            Scanner input = new Scanner(System.in);
+            System.out.print(ref.factorial.apply(input.nextInt()));
+        }
+    }
     public static void main(String[] args) {
         class Shape {
             private final double area;

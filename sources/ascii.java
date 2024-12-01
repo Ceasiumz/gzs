@@ -241,6 +241,13 @@ public class ascii {
         }
     }//initialize the hash table
 
+    private static int fina(int f) {
+        final int ff = f;
+        return ff;
+    }
+
+    int fff = fina(1145);
+
     public void hashrecognize(char[][] block, int n) {
         int node = 0;
         int lastnode ;

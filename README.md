@@ -1,4 +1,4 @@
-﻿# ***Hello friends***
+﻿# Hello friends
 Here is Ceasium's java programs written in CUHKSZ  
 
 Of course most of them are simple and junior  
